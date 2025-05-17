@@ -1,12 +1,71 @@
-# React + Vite
+# 🛒 Ecommerce App using React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a modern, high-performance ecommerce web application built using **React** and **Vite**. The app features a fast development environment, responsive UI, and scalable structure for adding product listings, shopping carts, and more.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tech Stack
 
-## Expanding the ESLint configuration
+- **Frontend**: React  
+- **Bundler**: Vite  
+- **Styling**: CSS  
+- **Routing**: React Router (v7.6.0)  
+- **State Management**: React useState / useContext  
+- **Linting**: ESLint with React and React Hooks plugins
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📦 Getting Started
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/ry1729/Ecommerce-using-react.git
+cd Ecommerce-using-react
+```
+
+### 2. Install dependencies
+```bash
+npm install
+```
+
+### 3. Run the development server
+```bash
+npm run dev
+```
+
+---
+
+## 📁 Folder Structure (Basic)
+
+```
+src/
+│
+├── assets/         # Static assets (images, etc.)
+├── components/     # Reusable components (e.g., Navbar, ProductCard)
+├── pages/          # Main pages (e.g., Home, ProductList)
+├── App.jsx         # Main App component
+├── main.jsx        # Entry point
+```
+
+---
+
+## ✅ Features
+
+- 🧩 Modular component structure  
+- ⚡ Lightning-fast build and hot reload (via Vite)   
+- 📱 Fully responsive design  
+- ✨ Easy to customize and scale
+
+---
+
+## 🛠️ Upcoming Improvements
+
+- Add product filtering  
+- Connect to a backend or mock API  
+- Implement cart functionality  
+- Add user authentication
+
+---
+
+
+
